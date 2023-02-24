@@ -1,0 +1,54 @@
+.container{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: content-box; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.card{
+    background-color: #f5f6f7;
+    height: 250px;
+    width: 200px;
+    flex: 25%;
+    overflow: scroll;
+    margin: 5px;
+    padding: 20px;
+}
+.inputBoxs{
+    /* border: 1px solid #6dd925; */
+    outline: none;
+    width: 580px;
+    height: 180px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.container .card .date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.editbtn{
+    width: 20px;
+    height: 20px;
+}
+
+
+img{
+  cursor: pointer;
+}

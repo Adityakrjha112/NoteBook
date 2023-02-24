@@ -1,0 +1,66 @@
+.dataEnter{
+    display: flex;
+    gap: 15px;
+    margin:100px 0px 0px 121px;
+    height: 200px;
+}
+
+.heading{
+    margin: 30px 0 0 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.inputBox{
+    border: 1px solid #6dd925;
+    outline: none;
+    width: 580px;
+    height: 100px;
+    border-radius: 6px;
+}
+.inputColor{
+    border: 1px solid #6dd925;
+    outline: none;
+    height: 40px;
+}
+::placeholder {
+    color: rgb(136, 178, 227);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.inputBox[type="text"]
+{
+    font-size:20px;
+    color: rgb(136, 178, 227);
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-sub{
+    display: flex;
+    margin: 30px 0 0 0px;
+    gap: 10px;
+}
+.btn{
+    outline: none;
+    border: 1px solid #6dd925;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover{
+    box-shadow:  1px 1px 1px #6dd925;
+}
+
+@media only screen and (max-width: 600px) {
+    .dataEnter{
+        display: block;
+    }
+    .col-sub{
+        display: block;
+    }
+    .inputBox{
+        width: 200px;
+    }
+}
